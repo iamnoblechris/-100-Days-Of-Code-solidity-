@@ -1,0 +1,19 @@
+// SPDX-License-Identifier: MIT
+
+pragma solidity ^0.8.17;
+
+contract Variables {
+    string public text = "noblechris";
+
+    uint256 public num = 53535;
+
+    function checkvariable() view public {
+        uint256 i = 456;
+
+        uint256 timestamp = block.timestamp;
+
+        address sender = msg.sender;
+
+        // To be continued .....
+    }
+}
